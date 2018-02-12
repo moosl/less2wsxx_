@@ -107,9 +107,9 @@ class Compiler:
                 '{}.wxss'.format(output_file)
         else:
             # when no output file is specified we take the name of the less
-            # file and substitute .less with .css
+            # file and substitute .less with .wxss
             if self.settings['min_name']:
-                return re.sub('\.less$', '.min.css', file_name)
+                return re.sub('\.less$', '.min.wxss', file_name)
             else:
                 return re.sub('\.less$', '.wxss', file_name)
 
