@@ -451,7 +451,7 @@ class Compiler:
         return {
             'project': proj_dir,
             'less': base_dir,
-            'css': output_dir,
+            'wxss': output_dir,
             'same_dir': same_dir,
             'shadow_folders': shadow_folders
         }
